@@ -3,7 +3,6 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { ComponentsComponent } from './components/components.component';
 import { HomeComponent } from './components/home/home.component';
 import { CreateAccountComponent } from './components/create-account/create-account.component';
 import { CreateAccountFormComponent } from './components/create-account-form/create-account-form.component';
@@ -11,7 +10,6 @@ import { CreateAccountFormComponent } from './components/create-account-form/cre
 @NgModule({
   declarations: [
     AppComponent,
-    ComponentsComponent,
     HomeComponent,
     CreateAccountComponent,
     CreateAccountFormComponent
